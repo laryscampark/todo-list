@@ -1,0 +1,25 @@
+:root {
+    --cor-primaria-sucess: rgb(75, 200, 138);
+}
+
+body {
+    background-color: aquamarine;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -110px;
+    margin-top: -40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    background-color: var(--cor-primaria-sucess);
+    outline: none;
+}
