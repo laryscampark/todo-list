@@ -41,7 +41,7 @@ const mudarStatusTarefa = (tarefa, status) => {
 function exibirLista() {
    const tarefas = informacoes.obterTarefas()
    if (tarefas) {
-      tarefas.foreach(tarefaListada => {
+      tarefas.forEach(tarefaListada => {
          id++
          document.querySelector('#lista-tarefas').innerHTML += tarefa(id, tarefaListada)
       })
